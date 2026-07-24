@@ -1,0 +1,33 @@
+# =====================================================================
+# 1. Mistral AI & Core SDKs
+# =====================================================================
+mistralai>=1.0.0            # Official Mistral AI Python client
+
+# =====================================================================
+# 2. Vector Database
+# =====================================================================
+chromadb>=0.5.0             # Native ChromaDB client
+
+# =====================================================================
+# 3. RAG Orchestration Frameworks (Choose/keep the one you prefer)
+# =====================================================================
+# --- Option A: LangChain Ecosystem ---
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+langchain-mistralai>=0.1.0  # LangChain integration for Mistral models
+langchain-chroma>=0.1.0     # LangChain integration for ChromaDB
+
+# --- Option B: LlamaIndex Ecosystem (Uncomment if using LlamaIndex) ---
+# llama-index>=0.10.0
+# llama-index-llms-mistralai
+# llama-index-embeddings-mistralai
+# llama-index-vector-stores-chroma
+
+# =====================================================================
+# 4. Utilities & Document Loaders
+# =====================================================================
+python-dotenv>=1.0.0        # Managing API keys via .env files
+pypdf>=4.0.0                # Processing PDF documents
+tiktoken>=0.7.0             # Token counting and text splitting utilities
+sentence-transformers>=3.0.0 # Optional: local embedding fallback (e.g. HuggingFace models)
