@@ -1,9 +1,9 @@
 from dotenv import load_dotenv
-form langchain_mistralai import ChatMistralAI
+from langchain_mistralai import ChatMistralAI
 
 load_dotenv()
 
 model = ChatMistralAI(model="mistral-small-2506")
 
-res = model.invoke("Hello!")
+res = model.invoke("Hello! who are you?")
 print(res.content)
