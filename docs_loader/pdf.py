@@ -1,0 +1,6 @@
+from langchain_community.document_loaders import PyPDFLoader
+
+data = PyPDFLoader("docs_loader/GRU.pdf")
+docs = data.load()
+
+print(docs[14])
