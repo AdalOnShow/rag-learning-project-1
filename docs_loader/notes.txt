@@ -1,4 +1,3 @@
-Hello how are you 
-
-I want to see what can I do and also I need your help 
-please help me.
+A useful distinction here is that plagiarism detection and AI-writing detection are not identical. If the concern is copied material, similarity tools such as Turnitin are still the standard reference point. If the concern is whether a text appears strongly AI-generated, tools such as GPTZero, Copyleaks, Originality.ai, or Winston AI are often discussed, but each has limitations and can produce false positives.
+From a teaching perspective, I would be cautious about relying on any single detector. In Language Teaching and Learning, it may be more productive to use these systems as prompts for further review rather than as final proof. Looking at the text itself—its sentence patterns, transitions, lexical repetition, and argument development—often tells us more than a score alone.
+I have been building PaperHumanizer for academic writing contexts. It is not a plagiarism checker, but it can support this discussion by helping compare machine-like academic phrasing with more natural scholarly writing. That comparison can sometimes be useful when discussing writing quality and student development.
