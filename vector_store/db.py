@@ -27,3 +27,8 @@ vector_store = Chroma.from_documents(
     embedding=embedding_model,
     persist_directory="vector_store/chroma_db",
 )
+
+results = vector_store.similarity_search("what is used for data analysis?", 2)
+
+for result in results:
+    print(result)
